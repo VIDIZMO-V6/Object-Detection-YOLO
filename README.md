@@ -1,6 +1,6 @@
 ## Overview
 
-object-detection-yolo is a Python library that provides a convenient interface for utilizing YOLOv5 and YOLOv8 models for object detection tasks.
+detection-yolo is a Python library that provides a convenient interface for utilizing YOLOv5 and YOLOv8 models for object detection tasks.
 
 Key Features:
 
