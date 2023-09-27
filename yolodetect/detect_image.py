@@ -75,7 +75,7 @@ if __name__ == "__main__":
         'v2': 'weights/FaceDetectionModel_Small_v2.pt'
     }
     indexer_version = 'v1'
-    source_path = r'C:\Users\hasnain.ali\Desktop\videos\walking.jpg'
+    source_path = r'Path to image'
 
     detector = ObjectDetector(weights, indexer_version=indexer_version)
     data, objs_detected = detector.detect_objects(source_path)

@@ -9,6 +9,4 @@ setup(
     name='detection-yolo', 
     version=VERSION,
     packages=find_packages(),
-    install_requires = ['ultralytics==8.0.54'],
-
 )
