@@ -34,7 +34,7 @@ class Detector:
             pred = nms_v1(pred, confidence, 0.45, classes=classes, agnostic=True)
 
         else:
-            pred = nms_v2(pred, confidence, 0.45, classes=classes, agnostic=True)
+            pred = nms_v2(pred, confidence, 0.45, classes=classes, agnostic=True, max_time_img=100.0)
 
         if pred is None:
             pred = []
