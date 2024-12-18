@@ -12,4 +12,4 @@ Key Features:
 You can install the package using pip:
 
 ```bash
-pip install detection-yolo
+pip install detection-yolo-v2
