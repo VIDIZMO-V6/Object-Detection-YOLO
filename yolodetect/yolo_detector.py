@@ -1,7 +1,7 @@
 import torch
-from ultralytics.yolo.utils.torch_utils import select_device
+from ultralytics.utils.torch_utils import select_device
 from ultralytics.nn.tasks import attempt_load_one_weight
-from ultralytics.yolo.utils.ops import non_max_suppression as nms_v2
+from ultralytics.utils.ops import non_max_suppression as nms_v2
 from .utils.general import non_max_suppression as nms_v1
 from .models.experimental import attempt_load
 
